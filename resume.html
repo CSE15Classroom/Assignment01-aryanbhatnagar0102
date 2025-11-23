@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Input Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 60%;
+            background: white;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        textarea {
+            resize: none;
+            height: 120px;
+        }
+
+        button {
+            width: 100%;
+            background: #4a77ff;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 8px;
+            margin-top: 25px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2c5cff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Resume Input Form</h1>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Phone Number</label>
+            <input type="text" placeholder="Enter your phone number">
+
+            <label>Address</label>
+            <textarea placeholder="Enter your address"></textarea>
+
+            <label>Education</label>
+            <textarea placeholder="Enter your education details"></textarea>
+
+            <label>Skills</label>
+            <textarea placeholder="Enter your technical & soft skills"></textarea>
+
+            <label>Projects</label>
+            <textarea placeholder="Enter your projects"></textarea>
+
+            <label>Achievements</label>
+            <textarea placeholder="Enter your achievements"></textarea>
+
+            <label>Languages Known</label>
+            <input type="text" placeholder="Example: English, Hindi">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
